@@ -1,0 +1,37 @@
+# Build output
+bin/
+obj/
+out/
+dist/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# ASP.NET data / logs
+Logs/
+appsettings.Development.json
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Cache / Temp
+*.pid
+*.tmp
+*.log
+*.db
+
+# Rider specific
+*.DotSettings.user
+
+# Publish folders
+publish/
